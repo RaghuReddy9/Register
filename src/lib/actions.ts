@@ -31,5 +31,5 @@ export async function login(prevState: State | undefined, formData: FormData) {
 
 export async function logout() {
   cookies().set("auth", "", { expires: new Date(0) });
-  redirect("/admin/login");
+  redirect("/admin");
 }

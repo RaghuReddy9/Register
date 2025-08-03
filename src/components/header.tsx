@@ -21,7 +21,7 @@ export function Header() {
           </Link>
         </Button>
         <Button variant="outline" asChild>
-          <Link href="/admin/login" className="text-sm font-medium" prefetch={false}>
+          <Link href="/admin" className="text-sm font-medium" prefetch={false}>
             Admin
           </Link>
         </Button>

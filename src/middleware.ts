@@ -5,7 +5,7 @@ export function middleware(request: NextRequest) {
   const cookie = request.cookies.get("auth");
 
   if (!cookie || cookie.value !== "true") {
-    return NextResponse.redirect(new URL("/admin/login", request.url));
+    return NextResponse.redirect(new URL("/admin", request.url));
   }
 
   return NextResponse.next();
