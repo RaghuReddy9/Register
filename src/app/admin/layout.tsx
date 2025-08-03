@@ -13,7 +13,7 @@ export default function AdminLayout({
       <header className="px-4 lg:px-6 h-16 flex items-center bg-secondary border-b">
         <Link href="/admin/dashboard" className="flex items-center justify-center gap-2" prefetch={false}>
           <HandHeart className="h-6 w-6 text-primary" />
-          <span className="text-lg font-semibold text-primary font-headline">VolunteerConnect Admin</span>
+          <span className="text-lg font-semibold text-primary-foreground font-headline">VolunteerConnect Admin</span>
         </Link>
         <div className="ml-auto">
           <form action={logout}>

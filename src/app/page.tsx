@@ -22,7 +22,7 @@ export default function Home() {
                   </p>
                 </div>
                 <div className="flex justify-center flex-col gap-2 min-[400px]:flex-row max-w-sm mx-auto">
-                  <Button asChild size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground">
+                  <Button asChild size="lg">
                     <Link href="/register">
                       Get Started
                     </Link>
@@ -46,8 +46,8 @@ export default function Home() {
             <div className="mx-auto grid max-w-5xl items-start gap-8 sm:grid-cols-2 md:gap-12 lg:grid-cols-3 lg:gap-16 mt-12">
               <Card className="shadow-lg">
                 <CardHeader className="flex flex-row items-center gap-4">
-                  <div className="bg-accent rounded-md p-3">
-                    <HeartHandshake className="w-6 h-6 text-accent-foreground" />
+                  <div className="bg-primary rounded-md p-3">
+                    <HeartHandshake className="w-6 h-6 text-primary-foreground" />
                   </div>
                   <CardTitle className="font-headline">Meaningful Connections</CardTitle>
                 </CardHeader>
@@ -57,8 +57,8 @@ export default function Home() {
               </Card>
               <Card className="shadow-lg">
                 <CardHeader className="flex flex-row items-center gap-4">
-                  <div className="bg-accent rounded-md p-3">
-                    <Users className="w-6 h-6 text-accent-foreground" />
+                  <div className="bg-primary rounded-md p-3">
+                    <Users className="w-6 h-6 text-primary-foreground" />
                   </div>
                   <CardTitle className="font-headline">Diverse Opportunities</CardTitle>
                 </CardHeader>
@@ -68,8 +68,8 @@ export default function Home() {
               </Card>
               <Card className="shadow-lg">
                 <CardHeader className="flex flex-row items-center gap-4">
-                  <div className="bg-accent rounded-md p-3">
-                    <Target className="w-6 h-6 text-accent-foreground" />
+                  <div className="bg-primary rounded-md p-3">
+                    <Target className="w-6 h-6 text-primary-foreground" />
                   </div>
                   <CardTitle className="font-headline">Make a Real Impact</CardTitle>
                 </CardHeader>

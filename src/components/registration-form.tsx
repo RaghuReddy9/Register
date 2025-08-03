@@ -157,7 +157,7 @@ export function RegistrationForm() {
             )}
           />
         </div>
-        <Button type="submit" className="w-full bg-accent hover:bg-accent/90 text-accent-foreground" size="lg">
+        <Button type="submit" className="w-full" size="lg">
           Submit Registration
         </Button>
       </form>

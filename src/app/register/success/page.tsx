@@ -20,7 +20,7 @@ export default function RegistrationSuccessPage() {
             <p className="text-muted-foreground">
               Thank you for your interest in volunteering with us. We have received your information and will be in touch shortly.
             </p>
-            <Button asChild className="bg-primary hover:bg-primary/90 text-primary-foreground">
+            <Button asChild>
               <Link href="/">Return to Home</Link>
             </Button>
           </CardContent>
